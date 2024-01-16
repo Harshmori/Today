@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+   
+  </style>
+  <script src="script.js" defer></script>
+  <title>Your Daily Plan</title>
+</head>
+
+<body class="bg-gray-800 text-white p-8 text-base">
+
+  <header class="flex justify-between items-center mb-6">
+    <h1 class="text-4xl font-bold">DAILY PLAN</h1>
+    <div class="flex items-center">
+      <label for="date" class="text-xl font-semibold mr-2">
+        <div id="datetime-container" class="whitespace-nowrap">
+          <p id="date">30/12/2023</p>
+          <p id="datetime">11:11:11 PM</p>
+        </div>
+      </label>
+    </div>
+  </header>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-semibold mb-4">SCHEDULE:</h2>
+        <ul class="space-y-2">
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">05:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">06:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">07:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">08:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">09:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">10:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">11:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">12:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">01:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">02:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">03:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">04:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">05:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">06:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">07:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">08:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">09:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">10:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">11:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+          <li class="flex justify-start items-center border-b border-gray-400">
+            <span class="mr-2">12:00</span>
+            <input class="bg-gray-700 text-white w-full" type="text" />
+          </li>
+        </ul>
+      </div>
+      <div>
+          <h2 class="text-2xl font-semibold mb-4">TO DO:</h2>
+          <ul class="space-y-2 mb-8">
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            
+          </ul>
+          <h2 class="text-2xl font-semibold mb-2">PRIORITIES:</h2>
+          <ul class="space-y-2 mb-8">
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+            <li class="flex items-center">
+              <input type="checkbox" class="mr-2">
+              <input type="text" class="border-b border-gray-400 bg-gray-700 text-white w-full">
+            </li>
+          </ul>
+    
+          <h2 class="text-2xl font-semibold mb-4">NOTES:</h2>
+          <textarea class="w-full h-48 border-2 border-gray-400 bg-gray-700 text-white"></textarea>
+    
+          <button class="w-full bg-gray-700 hover:bg-gray-400 border-2 border-gray-400 text-white text-xl font-semibold mb-4 py-2 px-4">
+            Clear Everything
+          </button>
+        </div>
+      </div>          
+<!-- Specify a div with an id where you want to attach the pattern -->
+<div title="365 Days" id="patternContainer" class="mt-4"></div>
+
+  
+</body>
+
+</html>
