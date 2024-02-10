@@ -1,4 +1,4 @@
-```
+
 # Browser Tab Planner Extension
 
 Welcome to the Browser Tab Planner Extension! This simple yet powerful extension allows you to plan your entire day right from the homepage of your browser tab. With features like hour-wise planning, to-do lists, priority management, notes section, and more, organizing your day has never been easier.
@@ -33,9 +33,7 @@ Experience a unique visual representation of the year with the 365 dots interfac
 4. Use the one-click clear feature to reset your planner as needed.
 5. Enjoy the convenience of persistent text, ensuring your planning data is always accessible.
 
-
-![screencap](https://github.com/Harshmori/Today/assets/46750824/8c22c060-49ba-4dd2-b559-5c09fc6ae0f5)
-
+![screencap](https://github.com/Harshmori/Today/assets/46750824/68181279-19f6-4518-9ecc-3b615ba18beb)
 
 
-```
+
